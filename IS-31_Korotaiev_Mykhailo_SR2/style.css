@@ -1,0 +1,160 @@
+.first {
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+div {
+  border: 5px solid rgb(73, 99, 106);
+  margin-left: 0px;
+}
+
+body {
+  background-color: rgb(230, 149, 255);
+}
+
+p.dotted {
+  border-style: dotted;
+}
+
+p.dashed {
+  border-style: dashed;
+}
+
+p.solid {
+  border-style: solid;
+}
+
+p.double {
+  border-style: double;
+}
+
+p.groove {
+  border-style: groove;
+}
+
+p.ridge {
+  border-style: ridge;
+}
+
+p.inset {
+  border-style: inset;
+}
+
+p.outset {
+  border-style: outset;
+}
+
+p.none {
+  border-style: none;
+}
+
+p.hidden {
+  border-style: hidden;
+}
+
+p.mix {
+  border-style: dotted dashed solid double;
+}
+
+p.ex1 {
+  margin-left: inherit;
+}
+
+.second {
+  width: 300px;
+  padding: 25px;
+  box-sizing: content-box;
+}
+
+.third {
+  max-width: 500px;
+  height: 100px;
+  background-color: rgb(224, 230, 176);
+}
+
+.fourth {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+a:link {
+  background-color: yellow;
+}
+
+a:visited {
+  background-color: rgb(255, 0, 0);
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+
+a:active {
+  background-color: hotpink;
+}
+
+ol {
+  background: #99d8ff;
+  padding: 20px;
+}
+
+ul {
+  background: #dcff3d;
+  padding: 20px;
+}
+
+ol li {
+  background: #c560a5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #adfded;
+  margin: 5px;
+}
+
+table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  height: 100px;
+}
+
+#rcorners1 {
+  border-radius: 50px / 15px;
+  background: #2621ad;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+#rcorners2 {
+  border-radius: 15px / 50px;
+  background: #2621ad;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+#rcorners3 {
+  border-radius: 50%;
+  background: #2621ad;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+}
